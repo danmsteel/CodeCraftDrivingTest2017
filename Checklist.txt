@@ -1,0 +1,12 @@
+1. Your Visual Studio solution is in GitHub and can be cloned by me
+2. Your build history has been notified to builds@codemanship.com so I can see how often you committed and whether you broke the build
+3. Your code passes all of the customer tests provided in the original skeleton solution
+4. Your source code (the code in the ProNet project) passes CodeCraft.FxCop code inspection, with no more than 3 uses of SuppressMessage to document any compromises
+5. Your source code (the code in the ProNet project) contains no more than 10% duplicated lines of code, as reported by Simian (see instructions PDF)
+6. Your test code (the code in the ProNet.Test project) contains no more than 20% duplicated lines of code, as reported by Simian (see instructions PDF)
+7. Your source and test code have a Conceptual Correlation with the language used in requrements.txt of no less than 75% (see instructions PDF)
+8. Your tests contain a maximum of one assertion each
+9. No more than 10% of your tests have external dependencies (e.g., file system)
+10. The entire test suite (including customer tests) runs in under 10 seconds (as reported by your test runner). You may need to get creative with file reads in the customer tests ;)
+11. You have not edited AbstractCustomerTests.cs. A file diff will point me to any changes.
+12. Your 20-30 minute screencast is watchable (i.e., I can read the code in it), has your audio commentary, and includes at least 4 complete red-green-refactor cycles with explanations. Upload it to YouTube or Vimeo.
